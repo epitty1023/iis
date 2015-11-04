@@ -64,7 +64,7 @@ Install IIS in Windows Server and ensure the Service is running
     class {'iis': }
 
 ## Limitations
-Module tests only on the following Operating Systems.
+Module tested only on the following Operating Systems.
 * Windows 2012 Server
 * Windows 2008 Server
 
