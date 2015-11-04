@@ -1,7 +1,7 @@
 class iis {
   Dism {
     ensure => present,
-	#require =>  Class [iis::netext-addon],
+	require =>  Class [iis::netext-addon],
   }
 
   dism { "IIS-WebServerRole":            } ->
