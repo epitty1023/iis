@@ -24,6 +24,28 @@ The IIS module allows you to automatically host websites and applications in an 
 * Packages
     * IIS Services (Windows)
     * DISM
+    	Features Enabled
+    	 dism { "IIS-WebServerRole":            } ->
+  		dism { "IIS-WebServer":                } ->
+  		dism { "IIS-CommonHttpFeatures":       } ->
+  		dism { "IIS-RequestFiltering":         } ->
+  		dism { "IIS-StaticContent":            } ->
+  		dism { "IIS-DefaultDocument":          } ->
+  		dism { "IIS-DirectoryBrowsing":        } ->
+  		dism { "IIS-HttpErrors":               } ->
+  		dism { "IIS-ApplicationDevelopment":   } ->
+  		dism { "IIS-ISAPIExtensions":          } ->
+  		dism { "IIS-ISAPIFilter":              } ->
+  		dism { "IIS-HealthAndDiagnostics":     } ->
+  		dism { "IIS-HttpLogging":              } ->
+  		dism { "IIS-Security":                 } ->
+  		dism { "IIS-BasicAuthentication":      } ->
+  		dism { "IIS-WindowsAuthentication":    } ->
+  		dism { "IIS-Performance":              } ->
+  		dism { "IIS-HttpCompressionStatic":    } ->
+  		dism { "IIS-WebServerManagementTools": } ->
+  		dism { "IIS-ManagementConsole":        } ->
+  		dism { "IIS-ManagementScriptingTools":  } 
     
 * Services
     * IIS Webserver
