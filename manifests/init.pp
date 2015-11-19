@@ -1,7 +1,7 @@
 class iis {
   Dism {
     ensure => present,
-	require =>  Class [iis::netext-addon],
+	#require =>  Class [iis::netext-addon],
   }
 
   dism { "IIS-WebServerRole":            } ->
@@ -26,9 +26,9 @@ class iis {
   dism { "IIS-ManagementConsole":        } ->
   dism { "IIS-ManagementScriptingTools":  } 
   
-  iis_site {'Default Web Site':
-   ensure   => absent,
- }
+ # iis_site {'Default Web Site':
+ #  ensure   => absent,
+ #}
 
    dism { 'IIS-ASP':                      
     ensure => absent,

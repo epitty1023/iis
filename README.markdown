@@ -4,7 +4,7 @@
 
 1. [Overview](#overview)
 2. [Module Description - What the module does and why it is useful](#module-description)
-3. [Setup - The basics of getting started with codedeploy](#setup)
+3. [Setup - The basics of getting started with your IIS module](#setup)
     * [What IIS affects](#what-IIS-affects)
 4. [Usage - Configuration options and additional functionality](#usage)
 5. [Limitations - OS compatibility, etc.](#limitations)
